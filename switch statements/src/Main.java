@@ -14,6 +14,11 @@ public class Main {
             yazsak da hem admin hem de moderator yazacaktir
              */
         case "moderator":
+            /*
+            neden case de iki nokta var cunku 
+            Eğer case etiketiyle eşleşen bir değer bulunursa
+            bu case etiketinin altındaki kod bloğu çalıştırılır
+            */
             System.out.println("you are a moderator");
             break;
         default:
